@@ -1,0 +1,51 @@
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0 0 0 0;
+}
+
+button {
+    display: block;
+    width: 40%;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #1583cc;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    font-size: 25px;
+    width: 100%;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    background-color: orange;
+    cursor: pointer;
+}
