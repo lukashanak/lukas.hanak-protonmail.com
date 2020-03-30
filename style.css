@@ -40,6 +40,10 @@ tr {
     border: 1px solid black;
 }
 
+tr:hover {
+    font-weight: bold;
+}
+
 td, th {
     border: 1px solid black;
     text-align: center;

@@ -1,7 +1,6 @@
-Vue.component("product", {
+Vue.component("todo-app", {
     template: `
-          <div class="product">
-
+          <div id="todoApp">
           <div class="container">
           <h2> Add new tasks </h2>
             <input v-model="newTaskValue" v-on:keyup.enter="addNewTodo" placeholder="Add a new task"> </input>
